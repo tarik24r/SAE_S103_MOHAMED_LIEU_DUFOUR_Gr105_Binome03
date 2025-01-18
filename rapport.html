@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SAE S1.03</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">SAE S1.03</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" href="index.html">Accueil</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="frise.html">Frise Chronologique</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="rapport.html">Rapport</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="questions.html">Questions</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<main class="container" style="margin-top: 80px;">
+  <section>
+    <h1>Rapport</h1>
+    <p>Voici le contenu de notre rapport :</p>
+    <article>
+      <h2>Création de la machine virtuelle</h2>
+      <p>On a décidé de creer notre machine virtuelle sur VirtualBox
+        car c'est un hyperviseur que l'on connaissait déjà avant de travailler sur cette SAE,
+        car on l'a déjà utilisé par le passé pour un usage personnel. Voici la configuration de notre VM.
+      On a accordé 32Go de stockage et 8Go de memoire vive pour être sur d'avoir assez de stockage disponible,
+        sans pour autant tout utiliser, pour pouvoir travailler sur la SAE sans souci. </p>
+      <img src="images/configVM.png" alt="Illustration" class="img-fluid">
+      <h2>Creation des comptes et du groupe et personnalisation du prompt</h2>
+      <p>Après l'installation d'Ubuntu, la distribution que nous avons choisi d'installer pour notre VM de type Linux
+        car on a déjà travaillé sur cette distrubution auparavant, nous avons enchainé avec la création des comptes et du groupe,
+        selon les consignes qui nous ont été donné. Voici les commandes qui ont été utilisé afin de pouvoir les creer.
+      </p>
+      <img src="images/useraddAdmin.png" alt="Illustration" class="vertical-images">
+      <img src="images/usermodAdmin.png" alt="Illustration" class="vertical-images">
+      <img src="images/ajoutBinome03_01.png" alt="Illustration" class="vertical-images">
+      <img src="images/ajoutBinome03_02.png" alt="Illustration" class="vertical-images">
+      <img src="images/groupaddBinome03.png" alt="Illustration" class="vertical-images">
+      <img src="images/ajoutBinome03Group.png" alt="Illustration" class="vertical-images">
+      <p>Voici les resultats obtenus suite à l'éxécution de ces commandes.</p>
+      <img src="images/compteAdminCree.PNG" alt="Illustration" class="vertical-images">
+      <img src="images/Binome03_01Cree.PNG" alt="Illustration" class="vertical-images">
+      <img src="images/Binome03_02Cree.PNG" alt="Illustration" class="vertical-images">
+
+      <p>Ensuite nous avons personnalisé le prompt. Voici les commandes utilisées et les resultats obtenus</p>
+      <img src="images/modifPrompt1.png" alt="Illustration" class="vertical-images">
+      <img src="images/modifPrompt2.png" alt="Illustration" class="vertical-images">
+      <h2>Conclusion</h2>
+      <p>Merci d'avoir lu notre rapport.</p>
+    </article>
+  </section>
+</main>
+
+<footer class="bg-dark text-white text-center py-3 mt-4">
+  <p>2025 SAE S1.03 - LIEU Lukas, DUFOUR Isham, MOHAMED Tarik (105). Tous droits réservés.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
