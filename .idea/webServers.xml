@@ -2,7 +2,7 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="80b681d0-6275-4d96-bb35-2dc24c9509d3" name="SAE_S1_03_ub1" url="http://saes103gr105b3">
+      <webServer id="80b681d0-6275-4d96-bb35-2dc24c9509d3" name="SAE_S1_03_ub1" url="">
         <fileTransfer rootFolder="/home/ub1/Bureau/monsite.fr" accessType="SFTP" host="192.168.0.21" port="22" sshConfigId="d7c9145e-dd17-44bd-87fb-88580d503d54" sshConfig="ub1@192.168.0.21:22 password">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
